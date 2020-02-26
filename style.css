@@ -1,0 +1,189 @@
+body  {
+    font-family: 'Montserrat';
+}
+
+nav {
+    height: 6.3em;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav img {
+    height: 3.7em;
+}
+
+a {
+    text-decoration: none;
+    color: #1DB954;
+}
+
+a:hover {
+    color: rgb(63, 238, 124);
+}
+
+.sign-up-container, .date-of-birth-container {
+    width: 30%;
+    height: 8em;
+    margin: auto;
+    /*border: 1px solid black;*/
+}
+
+.facebook {
+    height: 45%;
+    /*border: 1px solid pink;*/
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+}
+
+.facebook button {
+    height: 70%;
+    width: 75%;
+    border-radius: 2em;
+    background-color: #3B5998;
+    color: white;
+    margin-top: 1.7em;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.facebook button:hover {
+    background-color: rgb(63, 98, 173);
+}
+
+.line-or {
+    width: 100%;
+    padding-top: 0.5em;
+}
+
+.or {
+    display: flex;
+    margin-top: 1em;
+}
+
+.or:before, .or:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid lightgray;
+    margin: auto;
+  }
+  
+.title-email-container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      height: 42%;
+      /*border: 1px solid green;*/
+}
+
+.title-email {
+      padding-top: 2%;
+}
+
+.email-input-container {
+      width: 30%;
+      margin: auto;
+      height: 200px;
+      /*border: 1px solid red;*/
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+}
+
+.input-bar-border {
+      border: 1px solid lightgray;
+      width: 100%;
+      padding-top: 1em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+}
+
+.input-bar {
+      width: 90%;
+      padding: 0.1em;
+      border: none;
+}
+
+.input-bar {
+      border: none;
+}
+
+  .date-of-birth-container {
+      display: flex;
+      height: 2em;
+      justify-content: space-between;
+      margin-bottom: 2em;
+  }
+
+.date-input-bar {
+      border: 1px solid lightgray;
+}
+.month-container {
+      width: 30%;
+      border: 1px solid lightgray;
+}
+
+.month {
+      border: none;
+      width: 100%;
+      height: 100%;
+      background-color: white;
+      color: gray;
+}
+
+.bottom {
+        width: 30%;
+        height: 20em;
+        margin: auto;
+        /*border: 1px solid pink;*/
+}
+
+.consent {
+      color: gray;
+      font-size: 0.65em;
+}
+
+.captcha-container {
+      display: flex;
+      justify-content: center;
+}
+
+.g-recaptcha {
+      padding: 1.5em;
+}
+
+.bottom-text {
+      text-align: center;
+      font-size: 0.5em;
+      padding: 1em;
+}
+
+.sign-up-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up-bottom button {
+    height: 2.5em;
+    width: 75%;
+    border-radius: 2em;
+    background-color: #1DB954;
+    color: white;
+    margin-top: 1.7em;
+    font-size: 1em;
+    font-weight: bold;
+}
+.sign-up-bottom button:hover {
+    background-color: rgb(37, 201, 94);
+}
+
+.last-row {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    font-size: 0.8em;
+}

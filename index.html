@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:600,900&display=swap" rel="stylesheet">
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+<body>
+    <nav>
+        <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Black.png" alt="">
+    </nav>
+    <div class="sign-up-container">
+        <div class="facebook">
+            <button>SIGN UP WITH FACEBOOK</button>
+        </div>
+        <div class="line-or">
+            <div class="or">or</div>
+        </div>
+        <div class="title-email-container">
+            <div class="title-email">Sign up with your email address
+            </div>
+        </div>
+    </div>
+    <div class="email-input-container">
+        <div class="input-bar-border"><input class="input-bar" type="email" placeholder="Email"></div>
+        <div class="input-bar-border"><input class="input-bar" type="email" placeholder="Confirm email"></div>
+        <div class="input-bar-border"><input class="input-bar" type="password" placeholder="Password"></div>
+        <div class="input-bar-border"><input class="input-bar" type="text" placeholder="What should we call you?"></div>
+        <div>Date of birth</div>
+    </div>
+    <div class="date-of-birth-container">
+        <input class="date-input-bar" type="number" placeholder="Day">
+            <div class="month-container">
+                <select class="month" value="month">
+                <option value="none">Month</option>
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+                </select>
+            </div>
+        <input class="date-input-bar" type="number" placeholder="Year">
+    </div>
+    <div class="bottom">
+        <span>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="non-binary" name="gender" value="non-binary">
+            <label for="non-binary">Non-binary</label>
+        </span>
+        <div>
+            <input type="checkbox" id="share" name="consent" value="consented">
+            <label class="consent" for="consented">Share my registration data with Spotify's content providers for marketing purposes.</label>
+        </div>
+        <div class="captcha-container"><div class="g-recaptcha" data-sitekey="6Ldbdg0TAAAAAI7KAf72Q6uagbWzWecTeBWmrCpJ"></div></div>
+        <div class="bottom-text">By clicking on Sign up, you agree to Spotify's <a href="#">Terms and Conditions of Use.</a> </div>
+        <div class="bottom-text">To learn more about how Spotify collects, uses, shares and protects your personal data please read Spotify's <a href="#">Privacy Policy.</a></div>
+        <div class="sign-up-bottom">
+            <button>SIGN UP</button>
+        </div>
+        <div class="last-row">Already have an account? <a href="#">Log in</a></div>
+    </div>
+</body>
+</html>
