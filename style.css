@@ -97,18 +97,12 @@ a:hover {
       width: 100%;
       padding-top: 1em;
       display: flex;
-      justify-content: center;
-      align-items: center;
-      align-content: center;
+  
 }
 
 .input-bar {
       width: 90%;
       padding: 0.1em;
-      border: none;
-}
-
-.input-bar {
       border: none;
 }
 
